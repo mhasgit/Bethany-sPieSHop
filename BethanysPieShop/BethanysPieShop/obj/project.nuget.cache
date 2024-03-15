@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R6sSYm9k7Crq7XCSCR+7oL7qvF21puuyiVVghE0HsQnN91uFSgl4+M37iExkbBvmWRJVbiMpX8dWQByWgwKzcA==",
+  "dgSpecHash": "XzYUiNkdNK+h5gsUNBZ3ZNNHRM2m+2WbfnwM7/EzK4XfuGnG94nJBeo5l1rmQeRLKtCruk1hxNk56KPmRddLMw==",
   "success": true,
-  "projectFilePath": "C:\\FullStackDev\\BethanysPieSHop\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj",
+  "projectFilePath": "D:\\Code\\CSharp\\BethanysPieSHop\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hassa\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\hassa\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
