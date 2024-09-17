@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hNPNapJB9Q9jcpj927CTDD19uzAwpNy6GEL8kMYFJgIHLO68g5GXFYO9SCoHfHD5MX3PFB6pteE6vbyppoygDQ==",
+  "dgSpecHash": "q5Fxsrsauuk=",
   "success": true,
-  "projectFilePath": "D:\\Code\\CSharp\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj",
+  "projectFilePath": "D:\\Code\\CSharp\\BethanysPieSHop\\BethanysPieShop\\BethanysPieShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hassa\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\hassa\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
