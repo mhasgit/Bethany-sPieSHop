@@ -17,7 +17,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddDbContext<BethanysPieShopDbContext>(options =>
 {
     options.UseSqlServer(
-        builder.Configuration["ConnectionString:BethanysPieShopDbContextConnection"]);
+        builder.Configuration["ConnectionStrings:BethanysPieShopDbContextConnection"]);
 });
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<BethanysPieShopDbContext>();
