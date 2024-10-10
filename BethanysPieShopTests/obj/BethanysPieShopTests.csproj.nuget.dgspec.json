@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\CSharp\\BethanysPieSHop\\BethanysPieShopTests\\BethanysPieShopTests.csproj": {}
+    "D:\\Code\\CSharp\\BethanysPieShop\\BethanysPieShopTests\\BethanysPieShopTests.csproj": {}
   },
   "projects": {
-    "D:\\Code\\CSharp\\BethanysPieSHop\\BethanysPieShopTests\\BethanysPieShopTests.csproj": {
+    "D:\\Code\\CSharp\\BethanysPieShop\\BethanysPieShopTests\\BethanysPieShopTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\CSharp\\BethanysPieSHop\\BethanysPieShopTests\\BethanysPieShopTests.csproj",
+        "projectUniqueName": "D:\\Code\\CSharp\\BethanysPieShop\\BethanysPieShopTests\\BethanysPieShopTests.csproj",
         "projectName": "BethanysPieShopTests",
-        "projectPath": "D:\\Code\\CSharp\\BethanysPieSHop\\BethanysPieShopTests\\BethanysPieShopTests.csproj",
+        "projectPath": "D:\\Code\\CSharp\\BethanysPieShop\\BethanysPieShopTests\\BethanysPieShopTests.csproj",
         "packagesPath": "C:\\Users\\hassa\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\CSharp\\BethanysPieSHop\\BethanysPieShopTests\\obj\\",
+        "outputPath": "D:\\Code\\CSharp\\BethanysPieShop\\BethanysPieShopTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hassa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Code\\CSharp\\BethanysPieSHop\\BethanysPieShop\\BethanysPieShop.csproj": {
-                "projectPath": "D:\\Code\\CSharp\\BethanysPieSHop\\BethanysPieShop\\BethanysPieShop.csproj"
+              "D:\\Code\\CSharp\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj": {
+                "projectPath": "D:\\Code\\CSharp\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj"
               }
             }
           }
@@ -87,18 +87,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\CSharp\\BethanysPieSHop\\BethanysPieShop\\BethanysPieShop.csproj": {
+    "D:\\Code\\CSharp\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\CSharp\\BethanysPieSHop\\BethanysPieShop\\BethanysPieShop.csproj",
+        "projectUniqueName": "D:\\Code\\CSharp\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj",
         "projectName": "BethanysPieShop",
-        "projectPath": "D:\\Code\\CSharp\\BethanysPieSHop\\BethanysPieShop\\BethanysPieShop.csproj",
+        "projectPath": "D:\\Code\\CSharp\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj",
         "packagesPath": "C:\\Users\\hassa\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\CSharp\\BethanysPieSHop\\BethanysPieShop\\obj\\",
+        "outputPath": "D:\\Code\\CSharp\\BethanysPieShop\\BethanysPieShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hassa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -133,15 +133,31 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.5, )"
             }
           },
           "imports": [
@@ -163,7 +179,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
