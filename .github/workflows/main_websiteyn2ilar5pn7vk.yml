@@ -22,13 +22,16 @@ jobs:
         run: dotnet build --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish -c Release -o ./myapp  # Change to output to a relative path
+        run: dotnet publish -c Release -o ./myapp  # Output to a relative path
+
+      - name: List files in the working directory
+        run: dir  # Lists files to verify 'myapp' exists
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: ./myapp  # Change to the new output directory
+          path: ./myapp  # Correct path to the published output
 
   deploy:
     runs-on: windows-latest
@@ -45,6 +48,9 @@ jobs:
         with:
           name: .net-app
       
+      - name: List files in the deployment job
+        run: dir  # List files to verify the package is available
+      
       - name: Login to Azure
         uses: azure/login@v2
         with:
@@ -58,4 +64,4 @@ jobs:
         with:
           app-name: 'websiteyn2ilar5pn7vk'
           slot-name: 'Production'
-          package: ./myapp  # Point to the output directory
+          package: ./myapp  # Ensure this points to the correct package
