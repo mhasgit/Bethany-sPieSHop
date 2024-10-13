@@ -23,9 +23,19 @@ jobs:
 
       - name: Build with dotnet
         run: dotnet build --configuration Release
+      
+      - name: Run tests
+        run: dotnet test
 
       - name: dotnet publish
         run: dotnet publish -c Release -o ${{runner.temp}}/myapp
+      
+      - name: Run migration
+        env:
+          ConnectionStrings__BethanysPieShopDbContextConnection: ${{secrets.DB_CONNECTION_STRING}}
+        run: |
+          dotnet tool install --global dotnet-ef
+          dotnet ef database update  --project .\BethanysPieShop\BethanysPieShop.csproj
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
