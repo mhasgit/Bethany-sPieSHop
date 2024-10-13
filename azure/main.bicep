@@ -30,9 +30,9 @@ param sqlAdministratorLoginPassword string
 @description('Location for all resources.')
 param location string = resourceGroup().location
 
-var appServicePlanName = 'appServicePlan${uniqueString(resourceGroup().id)}'
-var websiteName = 'website${uniqueString(resourceGroup().id)}'
-var sqlserverName = 'sqlServer${uniqueString(resourceGroup().id)}'
+var appServicePlanName = 'pieshopasp001'
+var websiteName = 'pieshopweb001'
+var sqlserverName = 'pieshopsqlserver001'
 var databaseName = 'pieshopdb'
 
 resource sqlServer 'Microsoft.Sql/servers@2021-02-01-preview' = {
